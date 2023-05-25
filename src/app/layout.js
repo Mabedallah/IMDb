@@ -4,8 +4,8 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'IMDB',
-  description: 'IMDB APP',
+  title: 'IMDB Clone',
+  description: 'IMDB Clone APP',  
 }
 
 export default function RootLayout({ children }) {
