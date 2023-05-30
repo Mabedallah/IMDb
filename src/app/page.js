@@ -2,7 +2,7 @@ import Results from "@/components/Results";
 
 const API_KEY = process.env.API_KEY;
 
-export default async function Home({searchParams}) {
+export default async function Home({searchParams}) {  
   let genre = searchParams.genere || "fetchTopRated"; 
   
   const api_url = `https://api.themoviedb.org/3/${
